@@ -1,6 +1,6 @@
 ﻿/*This source code copyrighted by Lazy Foo' Productions 2004-2024
 and may not be redistributed without written permission.*/
-
+/* depend on Lazy Foo' s code  recreated by rawoo */
 //Using SDL, SDL_image, standard IO, vectors, and strings
 #include <SDL.h>
 #include <SDL_image.h>

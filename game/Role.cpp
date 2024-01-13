@@ -50,15 +50,14 @@ void Role::move()
 		//返回
 		mPosX -= mVelX;
 	}
-
 	//向上向下走
-	mPosY += mVelY;
+	mPosY += mVelY+3;
 
 	//撞到边框
 	if ((mPosY < 0) || (mPosY + ROLE_HEIGHT > LEVEL_HEIGHT))
 	{
 		//返回
-		mPosY -= mVelY;
+		mPosY -= mVelY+3;
 	}
 }
 
